@@ -1,3 +1,6 @@
+server:
+  port: 8085
+
 spring:
   cloud:
     gateway:
@@ -16,8 +19,6 @@ spring:
                 - Path=/orders/**
 
 
-server:
-  port: 8085
 eureka:
   client:
     service-url:
