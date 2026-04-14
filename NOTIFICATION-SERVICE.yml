@@ -4,9 +4,9 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/notification_db
+      uri: mongodb://mongodb:27017/notification_db
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: kafka:9092
 
     consumer:
       group-id: notification-group
