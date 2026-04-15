@@ -2,9 +2,6 @@ server:
   port: 8083
 
 spring:
-  config:
-    import: configserver:http://config-server:8888
-
   datasource:
     url: jdbc:mysql://mysql:3306/user_db
     username: root
